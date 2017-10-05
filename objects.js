@@ -1,13 +1,10 @@
-/*var playlist = {
+var playlist = {
   'dick': 'bag',
   'some': 'guy'
 }
-*/
 
-var playlist = {
-   'Foo Fighters': 'Everlong',
-   Prince: 'Purple Rain'
- }
+
+
 
 /*
 function updatePlaylist(playlist, artistName, songTitle) {
