@@ -1,6 +1,6 @@
 var playlist = {
-  dick: 'bag',
-  some: 'guy'
+  'dick': 'bag',
+  'some': 'guy'
 }
 
 function updatePlaylist(playlist, artistName, songTitle) {
@@ -10,4 +10,9 @@ function updatePlaylist(playlist, artistName, songTitle) {
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
   return playlist
+}
+
+var playlist = {
+   'Foo Fighters': 'Everlong',
+   Prince: 'Purple Rain'
 }
