@@ -4,6 +4,6 @@ var playlist = {
 }
 
 function updatePlaylist(cheese, artistName, songTitle){
-  var cheese = {` ${artistName}: ${songTitle}` }
+  var cheese = {`[${artistName}]: ${songTitle}` }
 
 }
