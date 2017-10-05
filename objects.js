@@ -3,7 +3,7 @@ var playlist = {
   'some': 'guy'
 }
 
-function updatePlaylist(cheese, artistName, songTitle){
-  var cheese = {`[${artistName}]: ${songTitle}` }
-
+updatePlaylist(playlist, artistName, songTitle){
+  playlist[artistName] = songTitle; 
+  return playlist
 }
