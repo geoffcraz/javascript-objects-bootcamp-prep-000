@@ -12,7 +12,4 @@ function removeFromPlaylist(playlist, artistName) {
   return playlist
 }
 
-var playlist = {
-   'Foo Fighters': 'Everlong',
-   Prince: 'Purple Rain'
-}
+
